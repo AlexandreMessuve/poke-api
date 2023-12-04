@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.type {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.size-weight {
+    font-size: 24px;
+    color: #777;
+}
+
+.details {
+    padding: 20px;
+}
+
+.abilities {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 24px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button.outline {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+button.outline:hover {
+    background-color: #3498db;
+    color: whitesmoke;
+    border: 2px solid #3498db;
+    cursor: pointer;
+}
+
+input.outline {
+    height: 30px;
+    width: 150px;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+  }
+
+.search{
+    margin-top: 50px;
+}
